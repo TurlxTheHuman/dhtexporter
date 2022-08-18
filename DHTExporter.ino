@@ -6,12 +6,12 @@
 #include <DHT.h>
 
 
-#define DATAPIN 2
-#define DHTTYPE DHT11     
+#define DATAPIN 2 // DATA Pin
+#define DHTTYPE DHT11 // SENSOR DHT11/DHT12
 DHT dht(DATAPIN, DHTTYPE);
 
 const char* ssid = "WIFISSID";
-const char* password = "PASSWORD?u";
+const char* password = "PASSWORD";
  
 ESP8266WebServer server(8663); //SEREVER ON PORT 8663
 
