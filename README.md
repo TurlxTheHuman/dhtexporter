@@ -15,10 +15,10 @@ This is to be used on an ESP8266 but I am sure you can run it on other boards wi
 
 Server Is Defaulted At http://IP:8663/metrics
 
-
+```
        Name         | Description
 --------------------|------------
 dhtexp_temperature    show temperature reading in celcius
 dhtexp_humidit        show humidity level reading
 
-
+```
