@@ -11,6 +11,10 @@ This is to be used on an ESP8266 but I am sure you can run it on other boards wi
 4. Add server to prometheus (add in targets parameter) 
 
 
+##ESP8266
+Connect sensor voltage+ground to any voltage and ground ping on the esp8266
+Data pin goes to D4 (data pin 2) you could change this in the code, I just chose a pin closest to power on my board
+
 ### Metrics
 
 Server Is Defaulted At http://IP:8663/metrics
